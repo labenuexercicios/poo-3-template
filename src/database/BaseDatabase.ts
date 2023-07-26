@@ -1,5 +1,7 @@
 import { knex } from "knex"
 
+
+
 export abstract class BaseDatabase {
     protected static connection = knex({
         client: "sqlite3",

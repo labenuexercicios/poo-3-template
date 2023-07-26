@@ -1,6 +1,8 @@
 import { AccountDB } from "../types";
 import { BaseDatabase } from "./BaseDatabase";
 
+
+
 export class AccountDatabase extends BaseDatabase {
     public static TABLE_ACCOUNTS = "accounts"
 
